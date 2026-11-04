@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"core\\\\export\\\\pdf.tsx -> @react-pdf/renderer\":{\"id\":\"core\\\\export\\\\pdf.tsx -> @react-pdf/renderer\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_react-pdf_renderer_lib_react-pdf_browser_js.js\"]}}"

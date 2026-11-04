@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 60 9% 96%;
+  --foreground: 0 0% 8%;
+  --muted: 60 7% 92%;
+  --muted-foreground: 240 2% 43%;
+  --border: 60 5% 85%;
+  --primary: 0 0% 8%;
+  --primary-foreground: 0 0% 100%;
+  --ring: 222 100% 62%;
+}
+body { background: hsl(var(--background)); color: hsl(var(--foreground)); }
+.noscroll { scrollbar-width: none; -ms-overflow-style: none; }
+.noscroll::-webkit-scrollbar { display: none; }
+
+.doc .ProseMirror { outline: none; min-height: 640px; }
+.doc h1 { font-size: 26px; font-weight: 700; line-height: 1.2; margin: 0 0 12px; }
+.doc h2 { font-size: 20px; font-weight: 600; line-height: 1.3; margin: 20px 0 8px; }
+.doc h3 { font-size: 17px; font-weight: 600; line-height: 1.35; margin: 16px 0 6px; }
+.doc h4 { font-size: 15px; font-weight: 600; line-height: 1.4; margin: 14px 0 6px; }
+.doc p { font-size: 14px; line-height: 1.65; margin: 0 0 12px; }
+.doc ul { list-style: disc; padding-left: 22px; margin: 0 0 12px; }
+.doc ol { list-style: decimal; padding-left: 22px; margin: 0 0 12px; }
+.doc li { font-size: 14px; line-height: 1.8; }
+.doc li > p { margin: 0; }
+.doc blockquote { border-left: 2px solid currentColor; padding-left: 14px; margin: 0 0 12px; font-style: italic; opacity: 0.85; }
+
+.doc img { display: block; max-width: 100%; height: auto; margin: 0 0 12px; }
+.doc img.ProseMirror-selectednode { outline: 2px solid #3B6CFF; }
+.doc table { width: 100%; border-collapse: collapse; table-layout: fixed; margin: 0 0 12px; }
+.doc th, .doc td { border: 1px solid rgba(128,128,128,0.55); padding: 6px 8px; vertical-align: top; font-size: 13px; }
+.doc th { font-weight: 600; text-align: left; background: rgba(128,128,128,0.14); }
+.doc td > p, .doc th > p { margin: 0; }
+.doc .selectedCell { background: rgba(59,108,255,0.15); }
+
+.doc-h .ProseMirror { min-height: 0; }
+.doc img, .doc tr { break-inside: avoid; }
+.doc h1, .doc h2, .doc h3, .doc h4 { break-after: avoid; }
