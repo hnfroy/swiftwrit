@@ -6,6 +6,14 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export const metadata: Metadata = { 
   metadataBase: new URL("https://hnfroy.github.io"),
 
+  icons: {
+    icon: [
+      { url: "/swiftwrit/favicon.ico" },
+      { url: "/swiftwrit/icon.png", type: "image/png" },
+    ],
+    apple: "/swiftwrit/apple-icon.png",
+  },
+
   title: {
     default: "SwiftWrit – Simple Online Document Tools",
     template: "%s | SwiftWrit",
