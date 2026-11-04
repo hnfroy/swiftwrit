@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
 
   title: {
-    default: "SwiftWrit – Simple Online Document Tools",
+    default: "SwiftWrit - Simple Online Document Tools",
     template: "%s | SwiftWrit",
   },
 
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "SwiftWrit",
-    title: "SwiftWrit – Simple Online Document Tools",
+    title: "SwiftWrit - Simple Online Document Tools",
     description:
       "A simpler way to write, edit, and manage your documents.",
     url: "https://hnfroy.github.io/swiftwrit/",
