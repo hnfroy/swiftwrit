@@ -16,7 +16,7 @@ export function Sidebar({ active }: { active: string }) {
     <aside className="sticky top-0 z-40 flex w-full flex-none flex-row items-center gap-3 bg-[#0B0B0C] px-3 py-2 md:static md:w-24 md:flex-col md:gap-7 md:py-6">
       <div aria-label="Logo" className="grid h-12 w-12 flex-none place-items-center rounded-xl bg-lime font-bold text-[#0B0B0C]">SW.</div>
       <nav aria-label="Daftar tools" className="flex flex-row gap-2 md:flex-col md:gap-2.5">
-        {tools.map((t) => {
+        {/* {tools.map((t) => {
           const Icon = t.icon;
           const on = t.slug === active;
           return (
@@ -30,7 +30,7 @@ export function Sidebar({ active }: { active: string }) {
               {t.title}
             </Link>
           );
-        })}
+        })} */}
         <Popover open={open} onOpenChange={setOpen}>
           <PopoverTrigger asChild>
             <button type="button" aria-label={`Draft, ${drafts.length} tersimpan`} className={cn(blk, "relative border-[#2A2A2C] bg-[#161617] text-[#B4B4B9] hover:text-white")}>

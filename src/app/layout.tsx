@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-export const metadata: Metadata = { title: "Toolbox", description: "Kumpulan tool teks ke dokumen." };
+export const metadata: Metadata = { title: "SwiftWrit.", description: "Your workspace, made simple." };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
